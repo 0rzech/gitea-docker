@@ -4,6 +4,9 @@ set -eu
 
 umask 077
 
+echo 'WARNING: 1.10.x is the last supported version family for this image!
+You should switch to another one, like gitea/gitea etc.' >&2
+
 # setup
 
 for directory in '/data/git' "$GITEA_CUSTOM" "${GITEA_CUSTOM}/conf" '/var/run/gitea'; do
