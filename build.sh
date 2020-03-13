@@ -2,8 +2,8 @@
 
 set -eu
 
-gitea_version='1.10.4'
-gitea_checksum='3c8842d58cace8bbaf36715a1171d24d3b97c497'
+gitea_version='1.10.6'
+gitea_checksum='4d876ab1c8f2bca3bdbfa9091821267ade938bf3'
 image_name='orzech/gitea'
 source='https://gitlab.com/0rzech/gitea-docker'
 
