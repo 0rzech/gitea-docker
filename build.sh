@@ -5,7 +5,7 @@ set -eu
 gitea_version='1.10.3'
 gitea_checksum='cebc125f7f08696dc00dd4e22e2177d142ae1aff'
 image_name='orzech/gitea'
-source='https://orzechowski.tech/git/orzech/gitea-docker'
+source='https://gitlab.com/0rzech/gitea-docker'
 
 if [ -n "${SOURCE_COMMIT:-}" ]; then
     source="${source}/src/commit/${SOURCE_COMMIT}"
